@@ -18,8 +18,7 @@ public class Main {
 		
 		while(true)
 		{	
-			System.out.print("Enter the path to the program to run: ");
-			String fileName = sc.nextLine();
+			String fileName = "./program";
 			System.out.println("Compiling...");
 			
 			try{
