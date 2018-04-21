@@ -64,7 +64,7 @@ public class Simulator {
 	/**
 	 * Runs the simulator
 	 */
-	void run()
+	public void run()
 	{
 		System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
 		System.out.println("                Start of Program");
