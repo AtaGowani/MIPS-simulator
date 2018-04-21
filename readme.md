@@ -2,6 +2,23 @@
 
 - Implemented with Java
 
+## How to use
+
+**Step 1:** Create a file in `root` named `program` and write your MIPS program in it. Use newline\enter to seperate each line of instruction.
+
+**Sample**
+```
+addi $t3 $0 6
+addi $t4, $0, 150
+beq $t0 $t3 3
+sub $t4 $t4 $t3
+addi $t0 $t0 1
+```
+
+**Step 2:** Compile the source code by running `javac Main.java` in the `root`.
+
+**Step 3:** Run executable by running `java Main` in the `root`. Follow the prompts on the console from there.
+
 ## Description
 
 This simulator is a low-level cycle-accurate pipelined MIPS datapath simulator that simulates the datapath including all of its storage
